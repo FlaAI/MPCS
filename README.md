@@ -1,1 +1,9 @@
-# Meta-Pattern-Concern-Score-for-Multi-classification-Evaluation
+# Meta Pattern Concern Score: A Novel Metric for Customizable Evaluation of Multi-classification
+
+## Update
+
+#### September 2022:
+- 
+
+
+## Core Idea
