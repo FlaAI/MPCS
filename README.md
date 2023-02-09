@@ -1,4 +1,4 @@
-# Meta Pattern Concern Score: A Novel Metric for Customizable Evaluation of Multi-classification
+# Meta Pattern Concern Score: A Novel Optimization Objective for Explainable and Customizable Learning of Multi-Classifiers
 
 ## Update
 
