@@ -1,16 +1,7 @@
 # Meta Pattern Concern Score: A Novel Optimization Objective for Explainable and Customizable Learning of Multi-Classifiers
 
-## Update
+Commonly used two types of learning objectives respectively from confusion matrix and loss function have different advantages in explainability and mathematical completeness, while they struggle in different dilemmas like the insensitivity to slight improvements and the lack of customizability in different tasks.
 
-#### September 2022:
-- A toy sample program using **Meta Pattern Concern Score** to evaluate a CNN classifier in the MNIST dataset is added for reference in advance.
-- The work is in progress at present and the detailed description (as well as a possible technology paper) will be opened to the public soon.
+In order to achieve both of their advantages and avoid their weaknesses, we propose a novel metric named **Meta Pattern Concern Score (MPCS)** based on an abstract representation of the probabilistic prediction and targeted processing of negative classes, which approaches the cross entropy loss to inherit its theoretical completeness, but allows people to customize explainable requirements to reduce real-world dangerous cases. 
 
-
-## Abstract
-
-Commonly used two types of metrics respectively based on confusion matrix and loss function have different advantages in flexibility and mathematical completeness, while they struggle in different dilemmas like the insensitivity to slight improvements or the lack of customizability in different tasks. 
-
-We propose a novel metric named **Meta Pattern Concern Score** based on the abstract representation of the probabilistic prediction, as well as the targeted design for processing negative classes in multi-classification and reducing the discreteness of metric value, to achieve advantages of both the two kinds of metrics and avoid their weaknesses. 
-
-Our metric provides customizability to pick out the model for specific requirements in different practices, and make sure it is also fine under traditional metrics at the same time. For instance, it can be designed to select a model to significantly reduce the number of dangerous misclassification cases by only slight sacrificing the training accuracy of the model.
+At the same time, this is realized without significantly violating the traditional objectives. For instance, it can be used to find the ideal model significantly reducing the number of dangerous misclassification cases by just slightly sacrificing its training accuracy, or be directly attached to the loss function to train a new model outperforming the original one with lower MPCS value and also fewer number of dangerous cases.
