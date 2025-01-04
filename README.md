@@ -1,4 +1,4 @@
-# Meta Pattern Concern Score: A Novel Optimization Objective for Explainable and Customizable Learning of Multi-Classifiers
+# Meta Pattern Concern Score
 
 Commonly used two types of learning objectives respectively from confusion matrix and loss function have different advantages in explainability and mathematical completeness, while they struggle in different dilemmas like the insensitivity to slight improvements and the lack of customizability in different tasks.
 
