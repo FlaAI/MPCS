@@ -1,6 +1,6 @@
 # Meta Pattern Concern Score
 
-**The paper has been accepted for publication at 2023 IEEE International Conference on Systems, Man, and Cybernetics (SMC'23).**
+**The paper has been accepted for publication at 2023 IEEE International Conference on Systems, Man, and Cybernetics (SMC'23). The conference proceedings version is available [here](https://ieeexplore.ieee.org/abstract/document/10394380).**
 
 Commonly used two types of learning objectives respectively from confusion matrix and loss function have different advantages in explainability and mathematical completeness, while they struggle in different dilemmas like the insensitivity to slight improvements and the lack of customizability in different tasks.
 
